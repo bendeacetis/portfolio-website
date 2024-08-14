@@ -1,11 +1,8 @@
 import Image from "next/image";
-
 import HeroSection from "./components/HeroSection";
-
 import Navbar from "./components/Navbar";
-
 import Aboutme from "./components/Aboutme";
-
+import Projects from "./components/Projects";
 
 
 
@@ -22,6 +19,8 @@ export default function Home() {
             <HeroSection/>
 
             <Aboutme/>
+
+            <Projects/>
 
         </div>
 
