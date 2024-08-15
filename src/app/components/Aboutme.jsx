@@ -3,7 +3,6 @@ import React, {useState, useTransition} from "react";
 import Image from "next/image";
 import TabButton from "./TabButton";
 
-
 const TAB_DATA = [
   {
     title: "Skills",
@@ -63,10 +62,10 @@ const Aboutme = () =>{
             <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
                 <h2 className="text-4xl font-bold text-[#282628] mb-4">About Me</h2>
 
-                <p className="text-base md:text-lg">My name is Ben DeAcetis and I'm a Computer Scientist and Product Designer.</p>
+                <p className="text-base md:text-lg">My name is Ben DeAcetis and I am a Computer Scientist and Product Designer.</p>
                 <br/>
                 <p className="text-base md:text-lg">
-                    I attend the University of Minnesota - Twin Cities where I'm on track to obtain a B.S. in Computer Science and minor in User Experience Design.
+                    I attend the University of Minnesota - Twin Cities where I amm on track to obtain a B.S. in Computer Science and minor in User Experience Design.
                 </p>
                 <br/>
                 <p className="text-base md:text-lg">
