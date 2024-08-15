@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const Airdrop = ()=>{
 
@@ -14,7 +15,9 @@ const Airdrop = ()=>{
                     <p className="text-base md:text-lg">Role: Software Developer</p>
                     <p className="text-base md:text-lg">Industry: Lifestyle</p>
                     <br/>
-                    <button className="bg-[#282628] text-[#F8F8F8] py-2 px-4 rounded-md">View project</button>
+                    <Link href="/airdrop">
+                         <button className="bg-[#282628] text-[#F8F8F8] py-2 px-4 rounded-md"> View project </button>
+                    </Link>
                 </div>
             </div>
         </div>

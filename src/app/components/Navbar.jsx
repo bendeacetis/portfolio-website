@@ -19,15 +19,7 @@ const navLinks = [
 
         title:"about",
 
-        path:"#about"
-
-    },
-
-    {
-
-        title:"contact",
-
-        path:"#contact"
+        path:"/about"
 
     }
 
@@ -78,7 +70,7 @@ const Navbar = () => {
 
                 </div>
 
-                <div className="menu hidden md:block md:w-auto" id="navbar">
+                <div className="menu hidden flex flex-row md:block md:w-auto" id="navbar">
 
                     <ul className="flex p-4 md:p-0 md:flex-row md:space-x-8 mt-0">
 
@@ -91,6 +83,8 @@ const Navbar = () => {
                         </li>
 
                         ))}
+                        <a href="mailto:bendeacetis@gmail.com" className="sm:text-xl text-black font-semibold">contact</a>
+
 
                     </ul>
 

@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const SetJet = ()=>{
 
@@ -14,7 +15,9 @@ const SetJet = ()=>{
                     <p className="text-base md:text-lg">Role: UX/UI Designer</p>
                     <p className="text-base md:text-lg">Industry: Travel, Film</p>
                     <br/>
-                    <button className="bg-[#282628] text-[#F8F8F8] py-2 px-4 rounded-md">View project</button>
+                    <Link href="/setjet">
+                        <button className="bg-[#282628] text-[#F8F8F8] py-2 px-4 rounded-md"> View project </button>
+                    </Link>
                 </div>
             </div>
         </div>

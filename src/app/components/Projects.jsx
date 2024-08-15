@@ -11,7 +11,7 @@ const Projects = ()=>{
     return (<section className="text-[#282628]">
         <div className="md:grid md:row bg-[#F8F8F8] gap-8">
             <SetJet/>
-            <MongoVision/>
+{/*             <MongoVision/> */}
             <GroveDash/>
             <Airdrop/>
             <Climatize/>

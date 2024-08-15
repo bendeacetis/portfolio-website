@@ -11,7 +11,6 @@ const TAB_DATA = [
       <ul className="list-disc pl-2">
         <li>Software Development</li>
         <li>User Experience Design</li>
-        <li>Photography</li>
       </ul>
     ),
   },
@@ -21,6 +20,7 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>University of Minnesota, Twin Cities</li>
+        <li>Fundación Ortega-Marañón, Madrid</li>
       </ul>
     ),
   },
@@ -39,8 +39,8 @@ const TAB_DATA = [
       id: "goals",
       content: (
         <ul className="list-disc pl-2">
-          <li>Live in Spain</li>
-          <li>Move to Chicago</li>
+          <li>Learn to speak Spanish fluently</li>
+          <li>Run a marathon</li>
         </ul>
       ),
   },
@@ -65,7 +65,7 @@ const Aboutme = () =>{
                 <p className="text-base md:text-lg">My name is Ben DeAcetis and I am a Computer Scientist and Product Designer.</p>
                 <br/>
                 <p className="text-base md:text-lg">
-                    I attend the University of Minnesota - Twin Cities where I amm on track to obtain a B.S. in Computer Science and minor in User Experience Design.
+                    I attend the University of Minnesota - Twin Cities where I am on track to obtain a B.S. in Computer Science and minor in User Experience Design.
                 </p>
                 <br/>
                 <p className="text-base md:text-lg">

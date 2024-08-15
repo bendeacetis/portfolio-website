@@ -1,0 +1,98 @@
+"use client";
+import React, {useState, useTransition} from "react";
+import Image from "next/image";
+import Navbar from "./Navbar";
+import TabButton from "./TabButton";
+
+const TAB_DATA = [
+  {
+    title: "Skills",
+    id: "skills",
+    content: (
+      <ul className="list-disc pl-2">
+        <li>Software Development</li>
+        <li>User Experience Design</li>
+      </ul>
+    ),
+  },
+  {
+    title: "Education",
+    id: "education",
+    content: (
+      <ul className="list-disc pl-2">
+        <li>University of Minnesota, Twin Cities</li>
+        <li>Fundación Ortega-Marañón, Madrid</li>
+      </ul>
+    ),
+  },
+  {
+    title: "Experience",
+    id: "experience",
+    content: (
+      <ul className="list-disc pl-2">
+        <li>Abbott SWE/UX Intern</li>
+        <li>UMN Teaching Assistant</li>
+      </ul>
+    ),
+  },
+  {
+      title: "Goals",
+      id: "goals",
+      content: (
+        <ul className="list-disc pl-2">
+          <li>Learn to speak Spanish fluently</li>
+          <li>Run a marathon</li>
+        </ul>
+      ),
+  },
+];
+
+export default function Home() {
+    const [tab,setTab] = useState("skills");
+    const [isPending, startTransition] = useTransition();
+
+    const handleTabChange = (id) =>{
+        startTransition(()=>{
+            setTab(id);
+        });
+    };
+
+    return(
+    <main className="flex min-h-screen flex-col bg-[#F8F8F8] ">
+        <Navbar/>
+
+        <div className="text-[#282628] container mt-24 mx-auto px-12">
+
+            <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
+                <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
+                    <h2 className="text-4xl font-bold text-[#282628] mb-4">About Me</h2>
+
+                    <p className="text-base md:text-lg">My name is Ben DeAcetis and I am a Computer Scientist and Product Designer.</p>
+                    <br/>
+                    <p className="text-base md:text-lg">
+                        I attend the University of Minnesota - Twin Cities where I am on track to obtain a B.S. in Computer Science and minor in User Experience Design.
+                    </p>
+                    <br/>
+                    <p className="text-base md:text-lg">
+                        Outside of my work, you can find me spending time outside, cooking, listening to music and taking photos.
+                    </p>
+                    <br/>
+                    <p className="text-base md:text-lg">
+                        Currently reading: Norwegian Wood
+                    </p>
+                    <div className="flex flex-row mt-8">
+                        <TabButton selectTab={()=> handleTabChange("skills")} active={tab ==="skills"}>{""}Skills{" "}</TabButton>
+                        <TabButton selectTab={()=> handleTabChange("education")} active={tab ==="education"}>{""}Education{" "}</TabButton>
+                        <TabButton selectTab={()=> handleTabChange("experience")} active={tab ==="experience"}>{""}Experience{" "}</TabButton>
+                        <TabButton selectTab={()=> handleTabChange("goals")} active={tab ==="goals"}>{""}Goals{" "}</TabButton>
+                    </div>
+                    <div className="mt-0">
+                         {TAB_DATA.find((t) => t.id === tab).content}
+                    </div>
+                </div>
+                <Image src="/images/photoofme.jpg" width={500} height={500} className="rounded-sm drop-shadow-l"/>
+            </div>
+        </div>
+    </main>);
+
+};
