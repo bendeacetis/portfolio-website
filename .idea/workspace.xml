@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c9c9ccb4-d666-4053-9e96-31c5cce3bf20" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/grovedash.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/grove-dash.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/GroveDash.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/GroveDash.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/HeroSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/HeroSection.jsx" afterDir="false" />
     </list>
