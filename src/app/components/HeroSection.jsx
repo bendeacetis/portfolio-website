@@ -65,11 +65,11 @@ const HeroSection = () => {
 
                     </h1>
 
-                    <p className="text-[#999999] font-normal sm:text-lg text-lg mt-6 mb-6 lg:text-xl">
+{/*                     <p className="text-[#999999] font-normal sm:text-lg text-lg mt-6 mb-6 lg:text-xl"> */}
 
-                        Hello world! Welcome to my portfolio :)
+{/*                         Hello world! Welcome to my portfolio :) */}
 
-                    </p>
+{/*                     </p> */}
 
                     <div>
 

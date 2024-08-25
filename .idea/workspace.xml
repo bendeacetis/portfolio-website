@@ -2,56 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9c9ccb4-d666-4053-9e96-31c5cce3bf20" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/airdropcard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/climatize/climatize1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/climatize/climatize10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/climatize/climatize11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/climatize/climatize12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/climatize/climatize13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/climatize/climatize14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/climatize/climatize2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/climatize/climatize3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/climatize/climatize4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/climatize/climatize5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/climatize/climatize6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/climatize/climatize7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/climatize/climatize8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/climatize/climatize9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/climatizecard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/cppicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/downarrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/figmaicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/grovedashcard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/jsicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/mongovisioncard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/nodejsicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/reacticon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/setjetcard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/unityicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/videos/grovedashdemo.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/videos/mvdemofinal.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/about/MenuOverlay.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/about/NavLink.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/about/Navbar.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/about/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/airdrop/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/climatize/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/grovedash/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/mongovision/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/setjet/page.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/Aboutme.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Aboutme.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/Airdrop.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Airdrop.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/Climatize.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Climatize.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/GroveDash.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/GroveDash.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/HeroSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/HeroSection.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/MongoVision.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/MongoVision.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Navbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/Projects.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Projects.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/SetJet.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/SetJet.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/TabButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about/TabButton.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,11 +36,11 @@
       <recent name="$PROJECT_DIR$/src/app/about" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs" />
       <recent name="$PROJECT_DIR$/public/videos" />
       <recent name="$PROJECT_DIR$/public/images" />
       <recent name="$PROJECT_DIR$/public/images/climatize" />
       <recent name="$PROJECT_DIR$/src/app/about" />
-      <recent name="$PROJECT_DIR$/docs" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
