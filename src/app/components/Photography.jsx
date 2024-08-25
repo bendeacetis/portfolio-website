@@ -4,8 +4,6 @@ import Image from "next/image";
 
 
 const Photography = ()=>{
-
-
 };
 
 export default Photography;

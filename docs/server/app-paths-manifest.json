@@ -1,11 +1,10 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
   "/climatize/page": "app/climatize/page.js",
-  "/about/page": "app/about/page.js",
-  "/mongovision/page": "app/mongovision/page.js",
-  "/grovedash/page": "app/grovedash/page.js",
-  "/setjet/page": "app/setjet/page.js",
-  "/page": "app/page.js",
   "/airdrop/page": "app/airdrop/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js"
+  "/grovedash/page": "app/grovedash/page.js",
+  "/about/page": "app/about/page.js",
+  "/setjet/page": "app/setjet/page.js",
+  "/mongovision/page": "app/mongovision/page.js",
+  "/page": "app/page.js"
 }

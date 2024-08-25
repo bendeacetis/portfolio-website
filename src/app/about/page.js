@@ -3,6 +3,7 @@ import React, {useState, useTransition} from "react";
 import Image from "next/image";
 import Navbar from "./Navbar";
 import TabButton from "./TabButton";
+import Photography from "./Photography";
 
 const TAB_DATA = [
   {
@@ -92,6 +93,8 @@ export default function Home() {
                 </div>
                 <Image src="/images/photoofme.jpg" width={500} height={500} className="rounded-sm drop-shadow-l"/>
             </div>
+            <Photography/>
+
         </div>
     </main>);
 
